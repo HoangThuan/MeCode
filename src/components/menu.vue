@@ -249,7 +249,7 @@ export default {
     <template v-if="layoutType === 'vertical' || layoutType === 'semibox'">
       <ul class="navbar-nav h-100" id="navbar-nav">
         <li class="nav-item">
-          <router-link class="nav-link menu-link" to="/">
+          <router-link class="nav-link menu-link" to="/home">
             <i class="ri-honour-line"></i>
             <span data-key="t-widgets">{{ $t("t-home") }}</span>
           </router-link>
