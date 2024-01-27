@@ -10,7 +10,7 @@ const router = createRouter({
 
 // API based Authentication
 // Before each route evaluates...
-router.beforeEach(async (routeTo, routeFrom, next) => {
+/*router.beforeEach(async (routeTo, routeFrom, next) => {
 
   const authRequired = routeTo.matched.some((route) => route.meta.authRequired);
   
@@ -108,6 +108,6 @@ router.beforeResolve(async (routeTo, routeFrom, next) => {
   document.title = routeTo.meta.title;
   // If we reach this point, continue resolving the route.
   next();
-});
+});*/
 
 export default router;
