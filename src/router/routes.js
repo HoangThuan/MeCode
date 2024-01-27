@@ -2,12 +2,6 @@ import store from "@/state/store";
 
 export default [
   {
-    path: "/login",
-    name: "login",
-    component: () => import("../views/account/login.vue"),
-   
-  },
-  {
     path: "/home",
     name: "home",
     meta: {
